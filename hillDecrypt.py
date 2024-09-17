@@ -34,7 +34,6 @@ def hill_cipher_decrypt(ciphertext, key_matrix):
     
     return plaintext
 
-# Example usage
 if __name__ == "__main__":
     # Matriks harus simetris
     key_matrix = np.array([[7, 6], [2, 5]]) 
